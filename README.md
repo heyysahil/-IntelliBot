@@ -37,7 +37,7 @@ Whether you need to <b>search documents</b>, <b>summarize reports</b>, or <b>gen
 <h2 align="center">📊 Architecture Diagram</h2>
 
 <p align="center">
-  <img src="https://github.com/your-username/IntelliBot/blob/main/architecture.png" alt="IntelliBot Architecture" width="800"/>
+  <img src="https://github.com/heyysahil/-IntelliBot/blob/main/screenshots/architecture.png" width="800"/>
 </p>
 
 ---
@@ -76,13 +76,11 @@ From <b>students</b> searching academic papers, to <b>professionals</b> analyzin
 <h2 align="center">📸 Screenshots</h2>
 
 <p align="center">
-  <img src="https://github.com/your-username/IntelliBot/blob/main/screenshots/screenshot1.png" alt="IntelliBot Screenshot 1" width="700"/>
+  <img src="https://github.com/heyysahil/-IntelliBot/blob/main/screenshots/Screenshot%20(996).png" alt="IntelliBot Screenshot 1" width="700"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/your-username/IntelliBot/blob/main/screenshots/screenshot2.png" alt="IntelliBot Screenshot 2" width="700"/>
+  <img src="https://github.com/heyysahil/-IntelliBot/blob/main/screenshots/Screenshot%20(997).png" alt="IntelliBot Screenshot 2" width="700"/>
 </p>
 
-<p align="center">
-  <img src="https://github.com/your-username/IntelliBot/blob/main/screenshots/screenshot3.png" alt="IntelliBot Screenshot 3" width="700"/>
-</p>
+
