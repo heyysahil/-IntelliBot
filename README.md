@@ -2,74 +2,83 @@
 
 <p align="center">
 Think Smarter. Work Faster. <br>
-IntelliBot is your <b>AI-powered knowledge assistant</b> that combines <b>RAG + FAISS + LLaMA3</b> to deliver precise, contextual, and lightning-fast answers.  
+IntelliBot is your <b>AI-powered knowledge assistant</b> that combines <b>RAG + FAISS + LLaMA3</b> to help you <b>upload documents, ask questions, and get instant summaries</b>.  
 </p>
 
 <p align="center">
-Whether you need to <b>search documents</b>, <b>summarize reports</b>, or <b>generate intelligent insights</b>, IntelliBot makes knowledge accessible in seconds.  
+From <b>research papers</b> to <b>business reports</b>, IntelliBot makes your PDFs come alive with contextual and accurate answers in seconds.  
 </p>
 
 ---
 
 <h2 align="center">🚀 Why IntelliBot?</h2>
 
-- 🔍 **Smart Retrieval** → Uses <b>FAISS Vector Store</b> for high-speed semantic search.  
-- 📚 **Context-Aware Answers** → Retrieval-Augmented Generation (RAG) ensures every response is grounded in your data.  
+- 📂 **Upload Any PDF** → Feed IntelliBot with research papers, reports, contracts, or books.  
+- 🔍 **Smart Retrieval** → Uses <b>FAISS Vector Store</b> for lightning-fast semantic search.  
+- 📚 **Context-Aware Answers** → Retrieval-Augmented Generation (RAG) ensures responses are grounded in your PDF.  
 - ⚡ **Powered by LLaMA3** → Integrated with <b>Groq LLaMA3 LLM</b> for state-of-the-art reasoning.  
-- 🌐 **Flask API Backend** → Lightweight, scalable, and simple integration with web or mobile apps.  
-- 🎨 **Interactive UI** → Clean and modern interface using <b>HTML, CSS, and JavaScript</b>.  
-- 💡 **Adaptable** → Works for research, customer support, enterprise knowledge bases, and personal assistants.  
-- 🔧 **Seamless Deployment** → Optimized for Docker, cloud hosting, and local environments.  
+- 🌐 **Flask API Backend** → Lightweight, scalable, and simple to integrate.  
+- 🎨 **Interactive UI** → Clean design using <b>HTML, CSS, and JavaScript</b>.  
+- 💡 **Adaptable** → Works for students, researchers, enterprises, and knowledge bases.  
+- 🔧 **Seamless Deployment** → Docker-ready, cloud-friendly, and runs locally too.  
 
 ---
 
 <h2 align="center">✨ Key Features</h2>
 
-✔️ **Ask Questions** → Query across multiple documents and knowledge bases.  
-✔️ **Document Retrieval** → Instantly fetch relevant context with FAISS-powered search.  
-✔️ **Summarization** → Generate concise summaries of long research papers or reports.  
-✔️ **Conversational Interface** → Chat with your data as if you’re talking to a human.  
-✔️ **Contextual Insights** → Get grounded, factual answers — not just guesses.  
-✔️ **Multi-domain Support** → From academic research to business intelligence, IntelliBot adapts.  
+✔️ **Ask Questions** → Query your uploaded PDFs like chatting with an expert.  
+✔️ **Document Retrieval** → FAISS ensures contextually relevant results every time.  
+✔️ **Summarization** → Get concise insights from long reports in seconds.  
+✔️ **Conversational Interface** → Chat with your documents, human-like and interactive.  
+✔️ **Multi-PDF Support** → Upload and query multiple documents together.  
+✔️ **Enterprise Ready** → Scale for customer support, research labs, or internal knowledge hubs.  
 
 ---
 
 <h2 align="center">📊 Architecture Diagram</h2>
 
 <p align="center">
-  <img src="https://github.com/heyysahil/-IntelliBot/blob/main/screenshots/architecture.png" width="800"/>
+  <img src="https://github.com/heyysahil/IntelliBot/blob/main/screenshots/architecture.png" width="800"/>
 </p>
 
 ---
 
-<h2 align="center">🛠️ Tools & Technologies</h2>
+<h2 align="center">🛠️ Technologies Used</h2>
 
 - **Machine Learning & NLP**  
-  - <b>LLaMA3 (Groq integration)</b>  
-  - <b>FAISS</b> for vector search  
-  - <b>RAG</b> (Retrieval-Augmented Generation pipeline)  
+  - LLaMA3 (via Groq API)  
   - Hugging Face Transformers  
-  - PyTorch  
+  - FAISS (Vector Search)  
+  - RAG Pipeline  
 
 - **Backend**  
   - Flask (Python)  
-  - REST API Endpoints  
+  - PyPDF2 / PDFPlumber (for PDF parsing)  
 
 - **Frontend**  
-  - HTML  
-  - CSS  
-  - JavaScript  
+  - HTML, CSS, JavaScript  
 
-- **Data & Training**  
-  - Custom embeddings with FAISS   
-  - High accuracy semantic retrieval  
+- **Deployment**  
+  - Docker  
+  - Cloud Hosting (AWS / GCP / Azure)  
+  - Local Environment  
+
+---
+
+<h2 align="center">📂 Workflow</h2>
+
+1️⃣ Upload a **PDF document**  
+2️⃣ IntelliBot extracts and stores chunks in **FAISS Vector DB**  
+3️⃣ User asks a **question**  
+4️⃣ Relevant context is retrieved & passed into **LLaMA3 (Groq)**  
+5️⃣ IntelliBot generates an **answer or summary**  
 
 ---
 
 <h2 align="center">✨ The Vision</h2>
 
-IntelliBot is built to redefine how humans interact with information.  
-From <b>students</b> searching academic papers, to <b>professionals</b> analyzing reports, to <b>enterprises</b> powering customer support — IntelliBot makes knowledge **actionable, reliable, and lightning fast**.  
+IntelliBot aims to redefine **how we interact with knowledge**.  
+No more scrolling through hundreds of pages — just **upload, ask, and understand**.  
 
 ---
 
@@ -83,4 +92,20 @@ From <b>students</b> searching academic papers, to <b>professionals</b> analyzin
   <img src="https://github.com/heyysahil/-IntelliBot/blob/main/screenshots/Screenshot%20(997).png" alt="IntelliBot Screenshot 2" width="700"/>
 </p>
 
+
+
+---
+
+<h2 align="center">💡 Future Enhancements</h2>
+
+- 🔐 Role-based access for enterprise teams  
+- 🎙️ Voice-enabled Q&A  
+- 🌍 Multilingual support  
+- 🧠 Fine-tuning for domain-specific expertise  
+
+---
+
+<h2 align="center">⭐ Show Your Support</h2>
+
+If you like this project, give it a ⭐ on GitHub and help spread the word! 🚀  
 
