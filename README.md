@@ -38,7 +38,7 @@ From <b>research papers</b> to <b>business reports</b>, IntelliBot makes your PD
 <h2 align="center">📊 Architecture Diagram</h2>
 
 <p align="center">
-  <img src="https://github.com/heyysahil/IntelliBot/blob/main/screenshots/architecture.png" width="800"/>
+  <img src="https://github.com/heyysahil/IntelliBot-AI-powered-knowledge-assistant/blob/main/screenshots/architecture.png" width="800"/>
 </p>
 
 ---
@@ -57,11 +57,6 @@ From <b>research papers</b> to <b>business reports</b>, IntelliBot makes your PD
 
 - **Frontend**  
   - HTML, CSS, JavaScript  
-
-- **Deployment**  
-  - Docker  
-  - Cloud Hosting (AWS / GCP / Azure)  
-  - Local Environment  
 
 ---
 
